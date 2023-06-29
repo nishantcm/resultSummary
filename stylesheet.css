@@ -1,5 +1,5 @@
 .page {
-    margin:0 40% 0 40%;
+    margin:0 39% 0 39%;
 }
 .col1 {
     background-color: #5151f7;
@@ -8,19 +8,98 @@
     padding-bottom: 5px;
     color: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#marks {
+.result h4{
+    color: rgb(244, 233, 220);
+    font-weight: 100;
+}
+div.marks {
+    margin: 0 30% 0 30%;
     border-radius: 100%;
-    background-color: rgb(5, 5, 101);
+    padding: 5px 8px 5px 8px;
+    background-color: rgba(35, 35, 206, 0.4);
+}
+.marks b {
+    font-size: 60px;
+    color: white;
+}
+.marks p {
+    color: rgb(188, 190, 192);
+}
+.para {
+    color: rgb(244, 233, 220); 
 }
 .col2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-bottom: 10px;
 }
-.container {
-    text-align: center;  
+.col2 h4{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
+.container {
+    padding-bottom: 10px;
+}
+p svg {
+    position: relative;
+    padding-top: 1px;
+    padding-right: 5px;
 
+}   
+
+p.one {
+    margin: 0 10px 0 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 220, 220);
+    color: red;
+    margin-bottom: 10px;
+}
+.one b {
+    color: darkblue;
+    padding-left: 40%;
+    font-weight: 100;
+}
+p.two {
+    margin: 0 10px 0 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(249, 249, 211);
+    color: rgb(253, 206, 17);
+    margin-bottom: 10px;
+}
+.two b {
+    color: darkblue;
+    padding-left: 40%;
+    font-weight: 100;
+}
+p.three {
+    margin: 0 10px 0 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(203, 247, 203);
+    color: rgb(40, 231, 129);
+    margin-bottom: 10px;
+}
+.three b {
+    color: darkblue;
+    padding-left: 45%;
+    font-weight: 100;
+}
+p.four {
+    margin: 0 10px 0 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(229, 229, 251);
+    color: rgb(55, 55, 243);
+}
+.four b {
+    color: darkblue;
+    padding-left: 45%;
+    font-weight: 100;
+}
 button {
     color: white;
     padding: 2% 30% 2% 30%;
