@@ -19,13 +19,16 @@ div.marks {
     border-radius: 100%;
     padding: 5px 8px 5px 8px;
     background-color: rgba(35, 35, 206, 0.4);
+    position: relative;
 }
 .marks b {
     font-size: 60px;
     color: white;
+    position: relative;
 }
 .marks p {
     color: rgb(188, 190, 192);
+    position: relative;
 }
 .para {
     color: rgb(244, 233, 220); 
@@ -39,19 +42,16 @@ div.marks {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
-.container {
+/* .container {
     padding-bottom: 10px;
-}
-p svg {
-    position: relative;
-    padding-top: 1px;
-    padding-right: 5px;
-
+} */
+svg {
+    display: inline;
 }   
 
-p.one {
+.one {
     margin: 0 10px 0 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     background-color: rgb(255, 220, 220);
     color: red;
@@ -62,9 +62,9 @@ p.one {
     padding-left: 40%;
     font-weight: 100;
 }
-p.two {
+.two {
     margin: 0 10px 0 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     background-color: rgb(249, 249, 211);
     color: rgb(253, 206, 17);
@@ -75,9 +75,9 @@ p.two {
     padding-left: 40%;
     font-weight: 100;
 }
-p.three {
+.three {
     margin: 0 10px 0 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     background-color: rgb(203, 247, 203);
     color: rgb(40, 231, 129);
@@ -88,9 +88,9 @@ p.three {
     padding-left: 45%;
     font-weight: 100;
 }
-p.four {
+.four {
     margin: 0 10px 0 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     background-color: rgb(229, 229, 251);
     color: rgb(55, 55, 243);
@@ -102,7 +102,7 @@ p.four {
 }
 button {
     color: white;
-    padding: 2% 30% 2% 30%;
+    padding: 10px 30% 10px 30%;
     border-radius: 20px;
     background-color: rgb(3, 3, 51);
     margin: 0 20px auto;
